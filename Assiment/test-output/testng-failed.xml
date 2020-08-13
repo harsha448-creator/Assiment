@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.Assiment.testUtils.TestListener"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.Assiment.tests.HomepageamzonTest">
+        <methods>
+          <include name="setupHomePage"/>
+          <include name="verifyiphonecolourTest"/>
+        </methods>
+      </class> <!-- com.Assiment.tests.HomepageamzonTest -->
+      <class name="com.Assiment.tests.PhonepriceamzonTest">
+        <methods>
+          <include name="verifyiphonecolour"/>
+          <include name="setupForSalePage"/>
+        </methods>
+      </class> <!-- com.Assiment.tests.PhonepriceamzonTest -->
+      <class name="com.Assiment.tests.HomepageTest">
+        <methods>
+          <include name="setupHomePage"/>
+          <include name="verifyiphonecolourTest"/>
+        </methods>
+      </class> <!-- com.Assiment.tests.HomepageTest -->
+      <class name="com.Assiment.tests.PhonepriceTest">
+        <methods>
+          <include name="setupForSalePage"/>
+          <include name="verifyiphonecolour"/>
+        </methods>
+      </class> <!-- com.Assiment.tests.PhonepriceTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+		<listener class-name="com.Assiment.testUtils.TestListener"></listener>
+	</listeners>
+
+<test name="Assiment">
+
+	<classes>
+
+		<class name="com.Assiment.tests.HomepageTest" />
+		<class name="com.Assiment.tests.HomepageamzonTest" />
+		<class name="com.Assiment.tests.PhonepriceTest" />
+		<class name="com.Assiment.tests.PhonepriceamzonTest" />
+	</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
